@@ -1,9 +1,9 @@
 annotations:
-  created: "2025-10-08T06:47:00Z"
-  revision: 9c2bb04a22e91e462cca41864e5d0eca00c4c482
+  created: "2025-10-14T07:04:49Z"
+  revision: 625fddb684be1d83285ce3763c6591615a9df795
 apiVersion: v2
-appVersion: 3.1.2-1
+appVersion: 3.1.2-2
 description: Deploy the MX Grid Manager app-orch pod
 name: orch-ui-app-orch
 type: application
-version: 3.1.2-1
+version: 3.1.2-2
