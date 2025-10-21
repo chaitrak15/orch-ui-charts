@@ -37,7 +37,7 @@ spec:
       containers:
         - name: admin
           # image: "{{- if hasKey $registry "name" }}{{ $registry.name }}/{{- end -}}{{ .Values.image.repository }}:{{ tpl .Values.image.tag . }}"
-          image: registry.dac.nokia.com/mxgrid/mxgrid-manager/orch-ui/admin:3.1.2-2
+          image: registry.dac.nokia.com/mxgrid/mxgrid-manager/orch-ui/admin:3.1.2-3
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http

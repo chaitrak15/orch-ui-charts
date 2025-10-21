@@ -36,7 +36,7 @@ spec:
         - name: reg-dac-secret
       containers:
         - name: cluster-orch
-          image: registry.dac.nokia.com/mxgrid/mxgrid-manager/orch-ui/cluster-orch:3.1.2-2
+          image: registry.dac.nokia.com/mxgrid/mxgrid-manager/orch-ui/cluster-orch:3.1.2-3
           # image: "{{- if hasKey $registry "name" }}{{ $registry.name }}/{{- end -}}{{ .Values.image.repository }}:{{ tpl .Values.image.tag . }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
